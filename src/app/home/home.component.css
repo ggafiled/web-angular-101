@@ -1,0 +1,22 @@
+body{
+    display: block;
+}
+.thumb-post img {
+    object-fit: initial;
+    object-position: center;
+    width: 100%;
+    max-height: 100%;
+    margin-bottom: 1rem;
+    border-radius: 2px;
+  }
+.card-bg-gray {
+    background-color: #F0F0F0;
+}
+
+.color-yellow{
+    color: #ffa000;
+}
+.txt-header-secound{
+    font-size: 20px;
+    color: #424242;
+}

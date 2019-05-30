@@ -1,0 +1,25 @@
+<div class="container cs-ml-top-50">
+  <h2>ทดสอบเพิ่มเข้ามูลเข้าสู่ระบบ โดยใช้ POST</h2>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="usr">ชื่อสถานที่จอดรถ :</label>
+      <input type="text" class="form-control" [(ngModel)]="car_data.name" name="car_data.name" placeholder="ชื่อสถานที่จอดรถ">
+    </div>
+    <div class="form-group">
+      <label for="age">รายละเอียดของสถานที่จอดรถ :</label>
+      <input type="text" class="form-control" [(ngModel)]="car_data.detail" name="car_data.detail" placeholder="รายละเอียดของสถานที่จอดรถ">
+    </div>
+    <div class="form-group">
+      <label for="age">จำนวนที่ว่าง :</label>
+      <input type="number" class="form-control" [(ngModel)]="car_data.count" name="car_data.count" placeholder="จำนวนที่ว่าง">
+    </div>
+    <div class="form-group">
+      <label for="age">ที่อยู่ของไฟล์รูปภาพ (URL) :</label>
+      <input type="text" class="form-control" [(ngModel)]="car_data.url" name="car_data.url" placeholder="ที่อยู่ของไฟล์รูปภาพ">
+    </div>
+    <div class="row mr-auto justify-content-center">
+      <button type="submit" class="btn btn-outline-warning a-btn" (click)="save(car_data);" style="width: 40%;">บันทึกข้อมูล</button>
+      <button type="submit" class="btn btn-outline-secondary" (click)="clear();" style="width: 40%;">ล้างหน้าจอ</button>
+    </div>
+  </form>
+</div>

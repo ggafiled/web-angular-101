@@ -1,0 +1,8 @@
+.a-btn{
+    cursor: pointer;
+    text-align: center;
+    color:#ffa000 !important;
+}
+.a-btn:hover{
+    color: #424242 !important;
+}

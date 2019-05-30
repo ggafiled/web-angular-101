@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+html , body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    display: inline-flex;
+}
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  box-sizing: content-box;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.cs-ml-top-10 {
+  margin-top: 10px;
+}
+
+.cs-ml-top-20 {
+  margin-top: 20px;
+}
+.cs-ml-top-50 {
+    margin-top: 50px;
+  }
+button{
+  margin: 13px 12px 12px 10px;
+}
