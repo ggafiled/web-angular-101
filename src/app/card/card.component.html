@@ -1,11 +1,11 @@
 <div class="card card-bg-gray cs-ml-top-10" style="width: 18rem;">
-          <img class="card-img-top" src="{{u.url}}" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">{{u.name}}</h5>
-            <p class="card-text"><span class="font-weight-bold">รายละเอียด : </span>{{u.detail}}</p>
-            <p class="card-text"><span class="font-weight-bold">ว่างตอนนี้ : </span>{{u.count}} คัน</p>
-            <div class="mx-auto row justify-content-center" role="group" aria-label="Basic example" >
-                    <a class="btn btn-outline-warning my-2 my-sm-0 col-md-5 a-btn" (click)="booking()" >{{check}}</a>
-            </div>
-          </div>
-        </div>
+  <img class="card-img-top" src="{{message.url}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{message.name}}</h5>
+    <p class="card-text"><span class="font-weight-bold">รายละเอียด : </span>{{message.detail}}</p>
+    <p class="card-text"><span class="font-weight-bold">ว่างตอนนี้ : </span>{{message.count}} คัน</p>
+    <div class="mx-auto row justify-content-center" role="group" aria-label="Basic example">
+      <a class="btn btn-outline-warning my-2 my-sm-0 col-md-5 a-btn" (click)="booking()">{{check}}</a>
+    </div>
+  </div>
+</div>

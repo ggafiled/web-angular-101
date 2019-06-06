@@ -11,20 +11,20 @@ export class CardComponent implements OnInit {
 
   check:any = "จองที่จอดรถ";
   check_:boolean = false;
+
   constructor(private appservice:AppserviceService) { }
   
-  @Input() message:string;
+  @Input('user') message:any;
   ngOnInit() {
   }
 
   booking(){
-    if(this.check_ == true){
+    if(this.check_){
       this.check = "ยกเลิก";
-      this.check_ = false;
     }else{
       this.check = "จองที่จอดรถ";
-      this.check_ = true;
     }
+    this.check_= !this.check_;
   }
 
 }
