@@ -8,8 +8,6 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
-  },"engines": {
-    "node": "10.16.0"
   },
   "private": true,
   "dependencies": {
