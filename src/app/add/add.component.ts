@@ -33,7 +33,6 @@ export class AddComponent implements OnInit {
         this.car_data.url = data.url;
         this.car_data.count = data.count;
       }
-      console.log(this.car_data);
     });
   }
 
@@ -52,6 +51,7 @@ export class AddComponent implements OnInit {
         alert('ไม่สามารถอัพเดตข้อมูลได้');
       });
     }
+    console.log(this.car_data);
   }
   ngOnInit() {
   }
