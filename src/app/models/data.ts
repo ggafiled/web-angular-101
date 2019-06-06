@@ -1,3 +1,5 @@
+import { Url } from 'url';
+
 export class Data {
     _id:string;
     name:String;

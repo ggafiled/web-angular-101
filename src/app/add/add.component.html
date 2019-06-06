@@ -15,7 +15,7 @@
     </div>
     <div class="form-group">
       <label for="age">ที่อยู่ของไฟล์รูปภาพ (URL) :</label>
-      <input type="text" class="form-control" [(ngModel)]="car_data.url" name="car_data.url" placeholder="ที่อยู่ของไฟล์รูปภาพ">
+      <input type="url" class="form-control" [(ngModel)]="car_data.url" name="car_data.url" placeholder="ที่อยู่ของไฟล์รูปภาพ">
     </div>
     <div class="row mr-auto justify-content-center">
       <button type="submit" class="btn btn-outline-warning a-btn" (click)="save(car_data);" style="width: 40%;">บันทึกข้อมูล</button>
